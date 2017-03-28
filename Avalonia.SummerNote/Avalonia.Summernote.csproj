@@ -6,12 +6,10 @@
 
   <ItemGroup>
     <None Remove="SummerNote.xaml" />
-    <None Remove="SummernoteTheme.xaml" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Summernote.xaml" />
-    <EmbeddedResource Include="SummernoteTheme.xaml" />
   </ItemGroup>
 
   <ItemGroup>
