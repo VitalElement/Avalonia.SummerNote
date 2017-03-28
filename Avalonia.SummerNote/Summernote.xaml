@@ -6,7 +6,7 @@
             <Border BorderBrush="{TemplateBinding BorderBrush}" 
                     BorderThickness="{TemplateBinding BorderThickness}" 
                     Padding="{TemplateBinding Padding}">
-                <cef:AvaloniaCefBrowser StartUrl="file:///C:/dev/repos/CefGlue.Core/Avalonia.Summernote/SummerNote/editor.html" />
+                <cef:AvaloniaCefBrowser Name="PART_browser" />
             </Border>
         </ControlTemplate>
     </Setter>
