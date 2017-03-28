@@ -1,0 +1,3 @@
+[submodule "modules/CefGlue.Core"]
+	path = modules/CefGlue.Core
+	url = https://github.com/VitalElement/CefGlue.Core.git
