@@ -1,0 +1,13 @@
+﻿<Style xmlns="https://github.com/avaloniaui" 
+       xmlns:local="clr-namespace:Avalonia.Summernote;assembly=Avalonia.Summernote" Selector="local|Summernote"
+       xmlns:cef="clr-namespace:CefGlue.Avalonia;assembly=CefGlue.Avalonia">
+    <Setter Property="Template">
+        <ControlTemplate>
+            <Border BorderBrush="{TemplateBinding BorderBrush}" 
+                    BorderThickness="{TemplateBinding BorderThickness}" 
+                    Padding="{TemplateBinding Padding}">
+                <cef:AvaloniaCefBrowser StartUrl="file:///C:/dev/repos/CefGlue.Core/Avalonia.Summernote/SummerNote/editor.html" />
+            </Border>
+        </ControlTemplate>
+    </Setter>
+</Style>
