@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Summernote</title>
+  <link href="bootstrap.css" rel="stylesheet">
+  <script src="jquery.js"></script> 
+  <script src="bootstrap.js"></script> 
+  <link href="summernote.css" rel="stylesheet">
+  <script src="summernote.js"></script>
+</head>
+<body>
+  <div id="summernote"></div>
+  <script>
+    $(document).ready(function() {
+        $('#summernote').summernote({
+  toolbar: [
+    // [groupName, [list of button]]
+    ['para', ['style', 'ul', 'ol', 'paragraph']],
+    ['style', ['bold', 'italic', 'underline', 'clear']],
+    ['font', ['strikethrough', 'superscript', 'subscript']],
+    ['fontsize', ['fontsize']],
+    ['color', ['color']],    
+    ['height', ['height']],
+    ['view', ['codeview']]
+  ]
+});
+    });
+  </script>
+</body>
+</html>
