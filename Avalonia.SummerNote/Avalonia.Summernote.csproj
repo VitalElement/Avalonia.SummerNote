@@ -4,6 +4,8 @@
     <TargetFramework>netstandard1.6</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" />
+
   <ItemGroup>
     <None Remove="SummerNote.xaml" />
   </ItemGroup>
@@ -17,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CefGlue.Avalonia\CefGlue.Avalonia.csproj" />
+    <ProjectReference Include="..\modules\CefGlue.Core\CefGlue.Avalonia\CefGlue.Avalonia.csproj" />
   </ItemGroup>
 
   <ItemGroup>

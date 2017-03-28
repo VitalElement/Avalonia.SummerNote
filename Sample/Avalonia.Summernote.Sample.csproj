@@ -7,6 +7,8 @@
     <RootNamespace>ControlCatalog</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" />
+
   <ItemGroup>
     <None Remove="App.xaml" />
     <None Remove="MainView.xaml" />
@@ -27,9 +29,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Avalonia.Summernote\Avalonia.Summernote.csproj" />
-    <ProjectReference Include="..\CefGlue.Avalonia\CefGlue.Avalonia.csproj" />
-    <ProjectReference Include="..\CefGlue\CefGlue.csproj" />
+    <ProjectReference Include="..\Avalonia.SummerNote\Avalonia.Summernote.csproj" />
+    <ProjectReference Include="..\modules\CefGlue.Core\CefGlue\CefGlue.csproj" />
   </ItemGroup>
 
 </Project>
