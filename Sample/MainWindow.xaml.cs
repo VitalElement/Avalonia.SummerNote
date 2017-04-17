@@ -1,6 +1,11 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using Avalonia.Threading;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
+using Xilium.CefGlue;
 
 namespace ControlCatalog
 {
