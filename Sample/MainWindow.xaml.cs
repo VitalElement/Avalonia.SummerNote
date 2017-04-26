@@ -15,6 +15,8 @@ namespace ControlCatalog
         {
             this.InitializeComponent();
             this.AttachDevTools();
+
+            this.DataContext = new MainWindowViewModel();
         }
 
         private void InitializeComponent()
