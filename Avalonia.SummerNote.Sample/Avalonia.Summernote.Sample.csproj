@@ -26,9 +26,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.4.1-build2959-alpha" />
-    <PackageReference Include="Avalonia.Skia.Desktop" Version="0.4.1-build2959-alpha" />
-    <PackageReference Include="Avalonia.Win32" Version="0.4.1-build2959-alpha" />
+    <PackageReference Include="Avalonia" Version="0.4.1-build3057-alpha" />
+    <PackageReference Include="Avalonia.Skia.Desktop" Version="0.4.1-build3057-alpha" />
+    <PackageReference Include="Avalonia.Win32" Version="0.4.1-build3057-alpha" />
     <PackageReference Include="SkiaSharp" Version="1.57.0" />
     <PackageReference Include="VitalElement.CefGlue.Core" Version="0.2.0" />
     <PackageReference Include="VitalElement.CefGlue.Core.Win-x64" Version="0.2.0-build6-alpha" />
