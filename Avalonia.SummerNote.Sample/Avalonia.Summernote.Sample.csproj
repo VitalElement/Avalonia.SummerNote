@@ -6,6 +6,7 @@
     <PackageTargetFallback>$(PackageTargetFallback);netstandard1.3;net40;net45</PackageTargetFallback>
     <AssemblyName>ControlCatalog</AssemblyName>
     <RootNamespace>ControlCatalog</RootNamespace>
+    <RuntimeIdentifiers>win7-x64;ubuntu.14.04-x64;debian.8-x64;osx.10.12-x64</RuntimeIdentifiers>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" />
@@ -29,11 +30,12 @@
     <PackageReference Include="Avalonia.Skia.Desktop" Version="0.4.1-build2959-alpha" />
     <PackageReference Include="Avalonia.Win32" Version="0.4.1-build2959-alpha" />
     <PackageReference Include="SkiaSharp" Version="1.57.0" />
+    <PackageReference Include="VitalElement.CefGlue.Core" Version="0.2.0" />
+    <PackageReference Include="VitalElement.CefGlue.Core.Win-x64" Version="0.2.0-build6-alpha" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Avalonia.SummerNote\Avalonia.Summernote.csproj" />
-    <ProjectReference Include="..\modules\CefGlue.Core\CefGlue\CefGlue.csproj" />
   </ItemGroup>
 
 </Project>
