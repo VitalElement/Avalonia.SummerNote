@@ -42,7 +42,7 @@ var configuration = Argument("configuration", "Release");
 // CONFIGURATION
 ///////////////////////////////////////////////////////////////////////////////
 
-var MainRepo = "VitalElement/CefGlue.Core";
+var MainRepo = "VitalElement/Summernote";
 var MasterBranch = "master";
 var ReleasePlatform = "Any CPU";
 var ReleaseConfiguration = "Release";
