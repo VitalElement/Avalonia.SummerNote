@@ -16,7 +16,8 @@
 
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.4.1-build3057-alpha" />
-    <PackageReference Include="VitalElement.CefGlue.Core.Avalonia" Version="0.2.0-build8-alpha" />    
+    <PackageReference Include="VitalElement.CefGlue.Core" Version="0.9.0-build17-alpha" />
+    <PackageReference Include="VitalElement.CefGlue.Core.Avalonia" Version="0.9.0-build17-alpha" />    
   </ItemGroup>
 
   <ItemGroup>

@@ -1,10 +1,8 @@
 ﻿using Avalonia;
 using CefGlue.Avalonia;
 
-namespace ControlCatalog
+namespace Avalonia.Summernote.Sample
 {
-
-
     internal class Program
     {
         static void Main(string[] args)

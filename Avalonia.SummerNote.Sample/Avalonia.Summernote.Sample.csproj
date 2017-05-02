@@ -4,8 +4,8 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <PackageTargetFallback>$(PackageTargetFallback);netstandard1.3;net40;net45</PackageTargetFallback>
-    <AssemblyName>ControlCatalog</AssemblyName>
-    <RootNamespace>ControlCatalog</RootNamespace>
+    <AssemblyName>Avalonia.Summernote.Sample</AssemblyName>
+    <RootNamespace>Avalonia.Summernote.Sample</RootNamespace>
     <RuntimeIdentifiers>win7-x64;ubuntu.14.04-x64;debian.8-x64;osx.10.12-x64</RuntimeIdentifiers>
   </PropertyGroup>
 
@@ -13,16 +13,12 @@
 
   <ItemGroup>
     <None Remove="App.xaml" />
-    <None Remove="MainView.xaml" />
     <None Remove="MainWindow.xaml" />
-    <None Remove="SideBar.xaml" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="MainView.xaml" />
     <EmbeddedResource Include="MainWindow.xaml" />
-    <EmbeddedResource Include="SideBar.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,8 +26,8 @@
     <PackageReference Include="Avalonia.Skia.Desktop" Version="0.4.1-build3057-alpha" />
     <PackageReference Include="Avalonia.Win32" Version="0.4.1-build3057-alpha" />
     <PackageReference Include="SkiaSharp" Version="1.57.0" />
-    <PackageReference Include="VitalElement.CefGlue.Core" Version="0.2.0" />
-    <PackageReference Include="VitalElement.CefGlue.Core.Win-x64" Version="0.2.0-build6-alpha" />
+    <PackageReference Include="VitalElement.CefGlue.Core" Version="0.9.0-build17-alpha" />
+    <PackageReference Include="VitalElement.CefGlue.Core.Win-x64" Version="0.9.0-build17-alpha" />
   </ItemGroup>
 
   <ItemGroup>

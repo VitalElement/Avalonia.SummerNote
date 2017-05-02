@@ -74,7 +74,7 @@ var editbin = @"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC
 // VERSION
 ///////////////////////////////////////////////////////////////////////////////
 
-var version = "0.2.0";
+var version = "0.8.0";
 
 if (isRunningOnAppVeyor)
 {
@@ -183,7 +183,7 @@ var nuspecNuGetBehaviors = new NuGetPackSettings()
     Tags = new [] { "Avalonia", "CEF", "CEFGlue", "Core", "Dotnet", "Rich Text", "Control", "Summernote" },    
     Files = new []
     {
-        new NuSpecContent { Source = "Avalonia.Summernote/bin/" + configuration + "/netstandard1.6/CefGlue.dll", Target = "lib/netstandard1.6" },
+        new NuSpecContent { Source = "Avalonia.Summernote/bin/" + configuration + "/netstandard1.6/Avalonia.Summernote.dll", Target = "lib/netstandard1.6" },
     },
     BasePath = Directory("./"),
     OutputDirectory = nugetRoot

@@ -6,7 +6,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ControlCatalog
+namespace Avalonia.Summernote.Sample
 {
     public class MainWindow : Window
     {

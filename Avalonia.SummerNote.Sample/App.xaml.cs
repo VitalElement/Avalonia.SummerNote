@@ -1,7 +1,7 @@
 using Avalonia;
 using Avalonia.Markup.Xaml;
 
-namespace ControlCatalog
+namespace Avalonia.Summernote.Sample
 {
     public class App : Application
     {
